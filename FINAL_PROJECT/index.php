@@ -18,6 +18,7 @@
   <script src="script.js"></script>
 </head>
 <body>
+
 	<?php require_once 'process.php'; ?>	
 	<div id="wrapper">
 
@@ -53,7 +54,7 @@
 		$mysqli = new mysqli('localhost', $user, $pass, $db) or die(mysqli_error($mysqli));
 		$result = $mysqli->query("SELECT name, id FROM final_project LIMIT 25") or
 		die($mysqli->error);
-		// pre_r($result->fetch_assoc());
+		
 
 		?>
 		
