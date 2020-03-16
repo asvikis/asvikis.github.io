@@ -4,4 +4,4 @@ $(':checkbox').click(function() {
     } else {
       $(this).parent().parent().find('td').css('textDecoration', '');
     }
-  });
+  })
