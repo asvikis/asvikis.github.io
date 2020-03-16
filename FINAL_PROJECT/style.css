@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-weight: 300;
+    overflow: hidden;
+    background:url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png);
+  }
+  
+  h1{
+    text-align:center;
+    padding:30px 0px 0px 0px;
+    font:25px Oswald;
+    color:#FFF;
+    text-shadow:#000 0px 1px 5px;
+    margin:0px;
+  }
+  
+  #wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  #left {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+  
+  }
+  
+  #right {
+    /*width:300px;*/
+    flex: 1;
+  }
+  
+  #add-data{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      padding-bottom: 1rem;
+  }
+  
+  
+  #table {
+      width: 100%;
+    
+  }
+  
+  label {
+    width:100%;
+  }
+  
+  
+  
+  
+  input[type="text"]{
+    width:100%;
+    align-items: center;
+    padding:15px 0px 15px 8px;
+    border-radius:5px;
+    box-shadow:inset 4px 6px 10px -4px rgba(0,0,0,0.3), 
+    0 1px 1px -1px rgba(255,255,255,0.3);
+    background:rgba(0,0,0,0.2);
+    border:1px solid rgba(0,0,0,1);
+    margin-bottom:10px;
+    color:#6E6E6E;
+    text-shadow:#000 0px 1px 5px;
+  }
+  
+  input[type="submit"]{
+    width:100%;
+    padding:15px;
+    border-radius:5px;
+    background-image: linear-gradient(#28D2DE 0%, #1A878F 100%);
+    font:14px Oswald;
+    color:#FFF;
+    text-transform:uppercase;
+    text-shadow:#000 0px 1px 5px;
+    border:1px solid #000;
+    opacity:0.7;
+    border-top:1px solid rgba(255,255,255,0.8);
+   
+  }
+  
+  
+  input[type="submit"]:hover{
+    opacity:1;
+    cursor:pointer;
+  }
+  
+  
+  .btn-edit {
+    border-radius:5px;
+    background-image: linear-gradient(#28D2DE 0%, #1A878F 100%);
+    border:none;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .btn-delete {
+    border-radius:5px;
+    background-image: linear-gradient(#871a1a 0%, #e60b0b 100%);
+    border:none;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  table {
+    width:90%;
+    align-items: center;
+    padding:15px 0px 15px 8px;
+    border-radius:5px;
+    box-shadow:inset 4px 6px 10px -4px rgba(0,0,0,0.3), 
+    0 1px 1px -1px rgba(255,255,255,0.3);
+    background:rgba(0,0,0,0.3);
+    border:1px solid rgba(0,0,0,5);
+    margin-bottom:10px;
+    margin-top: 20px;
+    color:#6E6E6E;
+    text-shadow:#000 0px 1px 5px;
+  }
+
+ #edit {
+   color: black;
+   text-decoration: none;
+   font-weight: bold;
+ }
+  
+ #edit {
+   text-decoration: none;
+   font-weight: bold;
+ }
+
+
